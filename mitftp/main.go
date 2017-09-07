@@ -7,5 +7,5 @@ import (
 
 func main() {
 	ServeFile(":1069", bytes.NewBufferString("Hola mundo"),
-		bytes.NewBuffer(""))
+		bytes.NewBufferString(""))
 }
